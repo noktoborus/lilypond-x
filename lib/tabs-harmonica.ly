@@ -31,7 +31,7 @@
 	)
 
 #(define (tablature-harmonica-free)
-		(make-vcenter-markup "∎")
+		(make-vcenter-markup "x")
 	)
 
 #(define (tablature-harmonica-richter semitone)
