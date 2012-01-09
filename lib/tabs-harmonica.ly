@@ -79,8 +79,8 @@
 
 #(define (tablature-harmonica-richter-cdur str context event)
 	(let ((music (ly:event-property event 'music-cause)))
-		  (tablature-harmonica-richter
-			  (ly:pitch-semitones (ly:music-property music 'pitch))
+		(tablature-harmonica-richter
+			(ly:pitch-semitones (ly:music-property music 'pitch))
 		)))
 
 #(define (tablature-harmonica-richter-gdur str context event)
