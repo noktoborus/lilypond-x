@@ -90,3 +90,5 @@
 			(+ (ly:pitch-semitones (ly:music-property music 'pitch)) 5)
 		)))
 
+#(define tuning-harmonica '(0 0 0 0 0))
+
