@@ -7,26 +7,26 @@ music = \relative c' {
 	\key d \major
 	\time 4/4 {
 		\repeat volta 1 {
-			f4.   g8   f e d e |
-			f8 a a b   a f e d |
-			d'4   e8 g   f d e c |
-			c8 b a f   b e   e4 |
+			fis4.   g8   fis e d e |
+			fis8 a a b   a fis e d |
+			d'4   e8 g   fis d e cis |
+			cis8 b a fis   b e   e4 |
 
-			f,4.   g8   f e d e |
-			f8 a a b   a f e d |
-			d'4   e8 g   f d e c |
-			c8 b a g   f d   d4 |
+			fis,4.   g8   fis e d e |
+			fis8 a a b   a fis e d |
+			d'4   e8 g   fis d e cis |
+			cis8 b a g   fis d   d4 |
 		}
 		\repeat volta 1 {
-			d'4   a8 g   f d f a |
-			d8 f a f   g f e g |
-			f8 a, d f   e a, c e |
-			d8 f e d   c a a4 |
+			d'4   a8 g   fis d fis a |
+			d8 fis a fis   g fis e g |
+			fis8 a, d fis   e a, cis e |
+			d8 fis e d   cis a a4 |
 			
-			b8 d, g b   a d, f a |
-			d8 f a f   g f e d |
-			\times 2/3 { b8 c d }   c e   d b a g |
-			f8 a e a d4 r4 |
+			b8 d, g b   a d, fis a |
+			d8 fis a fis   g fis e d |
+			\times 2/3 { b8 cis d }   cis e   d b a g |
+			fis8 a e a d4 r4 |
 		}
 	}
 }
