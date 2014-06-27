@@ -68,11 +68,10 @@ music = \relative c' {
 		(if (list? wrists)
 			(markup #:override '(size . 0.5)
 				#:woodwind-diagram 'tin-whistle (cdr wrists)
-				(cond ((car wrists) "+") (else ""))
+				(cond ((car wrists) "+") (else " "))
 			)
 			(markup)
 		)
-		;(make-vcenter-markup (number->string fret-number))
 	)
 ))
 
